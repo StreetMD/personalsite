@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Игра "Загадки"</title>
+		<link rel = "stylesheet" href = "style.css">
+		<script src="script1.js"></script>
+	</head>
+
+	<body>
+			<div id = "header">
+				<a href = "index.html">Главная</a>
+				<span>/</span>
+			
+				<a href = "#">Загадки</a>
+				<span>/</span>
+			
+				<a href = "guess.html">Угадай число</a>
+				<span>/</span>
+			
+				<a href = "guess-2.html">Угадайка мультиплеер</a>
+			</div>
+
+			<div id= "content">
+				<h2>Я загадал для тебя несколько загадок, отгадай их.</h2>
+
+					<div id = "box">
+
+						<p>Белым снегом всё одето - значит, наступает ...</p>
+						<input type="text" id="puzzles1"/>
+
+						<p>Два конца, два кольца, посредине гвоздик.</p>
+						<input type="text" id="puzzles2"/>
+
+						<p>Не огонь, а жжется.</p>
+						<input type="text" id="puzzles3"/>
+
+						<p>Красна девица сидит в темнице, а коса на улице.</p>
+						<input type="text" id="puzzles4"/>
+
+						<br/>
+						
+						<a href="#" onclick="checkAnswers();">Отправить</a>
+
+					</div>
+			</div>
+		<div id = "footer">				
+			Copyright &#169; <a href = "https://geekbrains.ru/" target = "_blank">GeekBrains</a>
+		</div>
+	</body>
+</html>
